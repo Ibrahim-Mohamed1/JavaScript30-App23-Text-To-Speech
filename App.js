@@ -13,3 +13,9 @@ function populateVoices() {
         .map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
         .join('');
 }
+
+function setVoice() {
+    msg.voice = voices.find(voice => voice.name === this.value);
+    toggle();
+}
+
