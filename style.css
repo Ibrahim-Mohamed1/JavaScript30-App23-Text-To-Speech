@@ -63,3 +63,8 @@ h1 {
   background: #F7F7F7;
   outline: 0;
 }
+
+textarea {
+  height: 20rem;
+}
+
